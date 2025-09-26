@@ -24,6 +24,7 @@ export default function Tickets({ customerTickets, onTicketStatusChyange }) {
   );
 }
 
+//Child
 function Ticket({ ticket, onTicketStatusChyange }) {
   const { id, title, description, customer, priority, status, createdAt } =
     ticket;

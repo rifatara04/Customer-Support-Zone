@@ -21,7 +21,7 @@ export default function TaskStatus({
           ))
         )}
       </section>
-      <h2 className="heading-secondary mb-3">Resolve Task</h2>
+      <h2 className="heading-secondary mb-3">Resolved Task</h2>
       <section className="space-y-2">
         {customerResolvedTickets.length === 0 ? (
           <p>No resolved tasks yet</p>
@@ -34,16 +34,6 @@ export default function TaskStatus({
     </aside>
   );
 }
-
-// {
-//     "id": 2,
-//     "title": "Payment failed",
-//     "description": "Transaction not processed during checkout.",
-//     "customer": "Bashir Ahmed",
-//     "priority": "Medium",
-//     "status": "Open",
-//     "createdAt": "2025-09-24T10:30:00Z"
-//   }
 
 // Progress Task
 function ProgressTask({ ticket, onTicketStatusChyange }) {
